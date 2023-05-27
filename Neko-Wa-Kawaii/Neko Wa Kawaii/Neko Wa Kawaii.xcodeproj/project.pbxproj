@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0DF889C2A20E48500940676 /* Neko_Wa_KawaiiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF889B2A20E48500940676 /* Neko_Wa_KawaiiApp.swift */; };
+		E0DF889E2A20E48500940676 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF889D2A20E48500940676 /* ContentView.swift */; };
+		E0DF88A02A20E48800940676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DF889F2A20E48800940676 /* Assets.xcassets */; };
+		E0DF88A32A20E48800940676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DF88A22A20E48800940676 /* Preview Assets.xcassets */; };
+		E0DF88AE2A20E48800940676 /* Neko_Wa_KawaiiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF88AD2A20E48800940676 /* Neko_Wa_KawaiiTests.swift */; };
+		E0DF88B82A20E48800940676 /* Neko_Wa_KawaiiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF88B72A20E48800940676 /* Neko_Wa_KawaiiUITests.swift */; };
+		E0DF88BA2A20E48800940676 /* Neko_Wa_KawaiiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DF88B92A20E48800940676 /* Neko_Wa_KawaiiUITestsLaunchTests.swift */; };
+		E0DF88C72A20EBEA00940676 /* nano.png in Resources */ = {isa = PBXBuildFile; fileRef = E0DF88C62A20EBE900940676 /* nano.png */; };
+		E0DF88CB2A2202D600940676 /* Windchime Village.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0DF88CA2A2202D600940676 /* Windchime Village.mp3 */; };
+		E0DF88CD2A22065D00940676 /* Tranquil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0DF88CC2A22065D00940676 /* Tranquil.mp3 */; };
+		E0DF88CF2A2207CA00940676 /* Halloween 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0DF88CE2A2207CA00940676 /* Halloween 2.mp3 */; };
+		E0DF88D12A2207D500940676 /* Jenka 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0DF88D02A2207D500940676 /* Jenka 2.mp3 */; };
+		E0DF88D32A2207DE00940676 /* Balcony.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0DF88D22A2207DE00940676 /* Balcony.mp3 */; };
+		E0DF88DB2A22081D00940676 /* Geothermal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0DF88DA2A22081D00940676 /* Geothermal.mp3 */; };
+		E0DF88DD2A2254C400940676 /* nano2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0DF88DC2A2254C400940676 /* nano2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0DF88AA2A20E48800940676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0DF88902A20E48500940676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0DF88972A20E48500940676;
+			remoteInfo = "Neko Wa Kawaii";
+		};
+		E0DF88B42A20E48800940676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0DF88902A20E48500940676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0DF88972A20E48500940676;
+			remoteInfo = "Neko Wa Kawaii";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0DF88982A20E48500940676 /* Neko Wa Kawaii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neko Wa Kawaii.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DF889B2A20E48500940676 /* Neko_Wa_KawaiiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neko_Wa_KawaiiApp.swift; sourceTree = "<group>"; };
+		E0DF889D2A20E48500940676 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0DF889F2A20E48800940676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0DF88A22A20E48800940676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0DF88A42A20E48800940676 /* Neko_Wa_Kawaii.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neko_Wa_Kawaii.entitlements; sourceTree = "<group>"; };
+		E0DF88A92A20E48800940676 /* Neko Wa KawaiiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neko Wa KawaiiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DF88AD2A20E48800940676 /* Neko_Wa_KawaiiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neko_Wa_KawaiiTests.swift; sourceTree = "<group>"; };
+		E0DF88B32A20E48800940676 /* Neko Wa KawaiiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neko Wa KawaiiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DF88B72A20E48800940676 /* Neko_Wa_KawaiiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neko_Wa_KawaiiUITests.swift; sourceTree = "<group>"; };
+		E0DF88B92A20E48800940676 /* Neko_Wa_KawaiiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neko_Wa_KawaiiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0DF88C62A20EBE900940676 /* nano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nano.png; path = ../../../nano.png; sourceTree = "<group>"; };
+		E0DF88CA2A2202D600940676 /* Windchime Village.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Windchime Village.mp3"; path = "../../../Windchime Village.mp3"; sourceTree = "<group>"; };
+		E0DF88CC2A22065D00940676 /* Tranquil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tranquil.mp3; path = "../../../../Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/7cb015d10748b6546c46856d9508548b/Message/MessageTemp/5bffd42dcedcaff622ab6addc39df6d0/File/Tranquil.mp3"; sourceTree = "<group>"; };
+		E0DF88CE2A2207CA00940676 /* Halloween 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Halloween 2.mp3"; path = "../../../../Music/Music/Media.localized/Music/Studio Pixel/Cave Story Soundtrack/Halloween 2.mp3"; sourceTree = "<group>"; };
+		E0DF88D02A2207D500940676 /* Jenka 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Jenka 2.mp3"; path = "../../../../Music/Music/Media.localized/Music/Studio Pixel/Cave Story Soundtrack/Jenka 2.mp3"; sourceTree = "<group>"; };
+		E0DF88D22A2207DE00940676 /* Balcony.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Balcony.mp3; path = "../../../../Music/Music/Media.localized/Music/Studio Pixel/Cave Story Soundtrack/Balcony.mp3"; sourceTree = "<group>"; };
+		E0DF88DA2A22081D00940676 /* Geothermal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Geothermal.mp3; path = "../../../../Music/Music/Media.localized/Music/Studio Pixel/Cave Story Soundtrack/Geothermal.mp3"; sourceTree = "<group>"; };
+		E0DF88DC2A2254C400940676 /* nano2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nano2.png; path = ../../../nano2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0DF88952A20E48500940676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DF88A62A20E48800940676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DF88B02A20E48800940676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0DF888F2A20E48500940676 = {
+			isa = PBXGroup;
+			children = (
+				E0DF889A2A20E48500940676 /* Neko Wa Kawaii */,
+				E0DF88AC2A20E48800940676 /* Neko Wa KawaiiTests */,
+				E0DF88B62A20E48800940676 /* Neko Wa KawaiiUITests */,
+				E0DF88992A20E48500940676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0DF88992A20E48500940676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0DF88982A20E48500940676 /* Neko Wa Kawaii.app */,
+				E0DF88A92A20E48800940676 /* Neko Wa KawaiiTests.xctest */,
+				E0DF88B32A20E48800940676 /* Neko Wa KawaiiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0DF889A2A20E48500940676 /* Neko Wa Kawaii */ = {
+			isa = PBXGroup;
+			children = (
+				E0DF88DA2A22081D00940676 /* Geothermal.mp3 */,
+				E0DF88D22A2207DE00940676 /* Balcony.mp3 */,
+				E0DF88D02A2207D500940676 /* Jenka 2.mp3 */,
+				E0DF88CE2A2207CA00940676 /* Halloween 2.mp3 */,
+				E0DF88CC2A22065D00940676 /* Tranquil.mp3 */,
+				E0DF88CA2A2202D600940676 /* Windchime Village.mp3 */,
+				E0DF88C62A20EBE900940676 /* nano.png */,
+				E0DF88DC2A2254C400940676 /* nano2.png */,
+				E0DF889B2A20E48500940676 /* Neko_Wa_KawaiiApp.swift */,
+				E0DF889D2A20E48500940676 /* ContentView.swift */,
+				E0DF889F2A20E48800940676 /* Assets.xcassets */,
+				E0DF88A42A20E48800940676 /* Neko_Wa_Kawaii.entitlements */,
+				E0DF88A12A20E48800940676 /* Preview Content */,
+			);
+			path = "Neko Wa Kawaii";
+			sourceTree = "<group>";
+		};
+		E0DF88A12A20E48800940676 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0DF88A22A20E48800940676 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0DF88AC2A20E48800940676 /* Neko Wa KawaiiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0DF88AD2A20E48800940676 /* Neko_Wa_KawaiiTests.swift */,
+			);
+			path = "Neko Wa KawaiiTests";
+			sourceTree = "<group>";
+		};
+		E0DF88B62A20E48800940676 /* Neko Wa KawaiiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0DF88B72A20E48800940676 /* Neko_Wa_KawaiiUITests.swift */,
+				E0DF88B92A20E48800940676 /* Neko_Wa_KawaiiUITestsLaunchTests.swift */,
+			);
+			path = "Neko Wa KawaiiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0DF88972A20E48500940676 /* Neko Wa Kawaii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DF88BD2A20E48800940676 /* Build configuration list for PBXNativeTarget "Neko Wa Kawaii" */;
+			buildPhases = (
+				E0DF88942A20E48500940676 /* Sources */,
+				E0DF88952A20E48500940676 /* Frameworks */,
+				E0DF88962A20E48500940676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neko Wa Kawaii";
+			productName = "Neko Wa Kawaii";
+			productReference = E0DF88982A20E48500940676 /* Neko Wa Kawaii.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0DF88A82A20E48800940676 /* Neko Wa KawaiiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DF88C02A20E48800940676 /* Build configuration list for PBXNativeTarget "Neko Wa KawaiiTests" */;
+			buildPhases = (
+				E0DF88A52A20E48800940676 /* Sources */,
+				E0DF88A62A20E48800940676 /* Frameworks */,
+				E0DF88A72A20E48800940676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0DF88AB2A20E48800940676 /* PBXTargetDependency */,
+			);
+			name = "Neko Wa KawaiiTests";
+			productName = "Neko Wa KawaiiTests";
+			productReference = E0DF88A92A20E48800940676 /* Neko Wa KawaiiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0DF88B22A20E48800940676 /* Neko Wa KawaiiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DF88C32A20E48800940676 /* Build configuration list for PBXNativeTarget "Neko Wa KawaiiUITests" */;
+			buildPhases = (
+				E0DF88AF2A20E48800940676 /* Sources */,
+				E0DF88B02A20E48800940676 /* Frameworks */,
+				E0DF88B12A20E48800940676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0DF88B52A20E48800940676 /* PBXTargetDependency */,
+			);
+			name = "Neko Wa KawaiiUITests";
+			productName = "Neko Wa KawaiiUITests";
+			productReference = E0DF88B32A20E48800940676 /* Neko Wa KawaiiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0DF88902A20E48500940676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E0DF88972A20E48500940676 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E0DF88A82A20E48800940676 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E0DF88972A20E48500940676;
+					};
+					E0DF88B22A20E48800940676 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E0DF88972A20E48500940676;
+					};
+				};
+			};
+			buildConfigurationList = E0DF88932A20E48500940676 /* Build configuration list for PBXProject "Neko Wa Kawaii" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0DF888F2A20E48500940676;
+			productRefGroup = E0DF88992A20E48500940676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0DF88972A20E48500940676 /* Neko Wa Kawaii */,
+				E0DF88A82A20E48800940676 /* Neko Wa KawaiiTests */,
+				E0DF88B22A20E48800940676 /* Neko Wa KawaiiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0DF88962A20E48500940676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DF88DD2A2254C400940676 /* nano2.png in Resources */,
+				E0DF88A32A20E48800940676 /* Preview Assets.xcassets in Resources */,
+				E0DF88D32A2207DE00940676 /* Balcony.mp3 in Resources */,
+				E0DF88C72A20EBEA00940676 /* nano.png in Resources */,
+				E0DF88DB2A22081D00940676 /* Geothermal.mp3 in Resources */,
+				E0DF88CF2A2207CA00940676 /* Halloween 2.mp3 in Resources */,
+				E0DF88A02A20E48800940676 /* Assets.xcassets in Resources */,
+				E0DF88CD2A22065D00940676 /* Tranquil.mp3 in Resources */,
+				E0DF88D12A2207D500940676 /* Jenka 2.mp3 in Resources */,
+				E0DF88CB2A2202D600940676 /* Windchime Village.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DF88A72A20E48800940676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DF88B12A20E48800940676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0DF88942A20E48500940676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DF889E2A20E48500940676 /* ContentView.swift in Sources */,
+				E0DF889C2A20E48500940676 /* Neko_Wa_KawaiiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DF88A52A20E48800940676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DF88AE2A20E48800940676 /* Neko_Wa_KawaiiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DF88AF2A20E48800940676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DF88B82A20E48800940676 /* Neko_Wa_KawaiiUITests.swift in Sources */,
+				E0DF88BA2A20E48800940676 /* Neko_Wa_KawaiiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0DF88AB2A20E48800940676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0DF88972A20E48500940676 /* Neko Wa Kawaii */;
+			targetProxy = E0DF88AA2A20E48800940676 /* PBXContainerItemProxy */;
+		};
+		E0DF88B52A20E48800940676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0DF88972A20E48500940676 /* Neko Wa Kawaii */;
+			targetProxy = E0DF88B42A20E48800940676 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0DF88BB2A20E48800940676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0DF88BC2A20E48800940676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E0DF88BE2A20E48800940676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Neko Wa Kawaii/Neko_Wa_Kawaii.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neko Wa Kawaii/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARMagicStation.Neko-Wa-Kawaii";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0DF88BF2A20E48800940676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Neko Wa Kawaii/Neko_Wa_Kawaii.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Neko Wa Kawaii/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARMagicStation.Neko-Wa-Kawaii";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E0DF88C12A20E48800940676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARMagicStation.Neko-Wa-KawaiiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neko Wa Kawaii.app/Contents/MacOS/Neko Wa Kawaii";
+			};
+			name = Debug;
+		};
+		E0DF88C22A20E48800940676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARMagicStation.Neko-Wa-KawaiiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neko Wa Kawaii.app/Contents/MacOS/Neko Wa Kawaii";
+			};
+			name = Release;
+		};
+		E0DF88C42A20E48800940676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARMagicStation.Neko-Wa-KawaiiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Neko Wa Kawaii";
+			};
+			name = Debug;
+		};
+		E0DF88C52A20E48800940676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ARMagicStation.Neko-Wa-KawaiiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Neko Wa Kawaii";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0DF88932A20E48500940676 /* Build configuration list for PBXProject "Neko Wa Kawaii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DF88BB2A20E48800940676 /* Debug */,
+				E0DF88BC2A20E48800940676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0DF88BD2A20E48800940676 /* Build configuration list for PBXNativeTarget "Neko Wa Kawaii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DF88BE2A20E48800940676 /* Debug */,
+				E0DF88BF2A20E48800940676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0DF88C02A20E48800940676 /* Build configuration list for PBXNativeTarget "Neko Wa KawaiiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DF88C12A20E48800940676 /* Debug */,
+				E0DF88C22A20E48800940676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0DF88C32A20E48800940676 /* Build configuration list for PBXNativeTarget "Neko Wa KawaiiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DF88C42A20E48800940676 /* Debug */,
+				E0DF88C52A20E48800940676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0DF88902A20E48500940676 /* Project object */;
+}
